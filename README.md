@@ -3,8 +3,7 @@ TICKET GENERATOR
 
 You have been hired as the tech consultant for a local museum in NYC. They are trying to make the experience more efficient for their customers, so they have asked you to create an app that generate tickets for customers based on (1) day of the week, (2) age, and (3) if they have a discount code.
 
-![Beyonce](https://media.giphy.com/media/wJQqAYruWObF7g1W3L/giphy.gif)
-
+![](https://media.giphy.com/media/wJQqAYruWObF7g1W3L/giphy.gif)
 GOAL
 ------------
 You want to make an app that takes in the users age, the date of their visit, and whether or not they have a discount. When they hit "Print my Ticket" it should generate their ticket.

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Museum Ticket Generator!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    <!--  import Bootstrap    -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-light">
+    <div>
+      <h1>MUSEUM TICKET GENERATOR</h1>
+    </div>
+    <div class="row">
+      <div class="col">
+        <h3>
+          Day of visit
+        </h3>
+      </div>
+      <div class="col">
+        <!--  You need to get the day of visit from here  -->
+        <input id="dayInput" placeholder="Day of visit?" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <h3>
+          How old are you?
+        </h3>
+      </div>
+      <div class="col">
+        <!--  You need to get the age of the person from here  -->
+        <input id="ageInput" placeholder="Age?" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <!--  CHALLENGE: Decrease price if they enter a discount code.  -->
+        <input id="discountInput" placeholder="type code here" />
+      </div>
+    </div>
+    <div class="text-center">
+      <button id="calculateButton" type="button" class="btn btn-primary">
+        Print my ticket!
+      </button>
+    </div>
+    <div id="ticket-holder">
+      <div class="row">
+        <div class="col">
+          <h2>
+            Admit 1
+          </h2>
+        </div>
+        <div class="col-3">
+          <img
+            class="img-flex"
+            id="qr"
+            src="https://cdn.glitch.com/d87f5feb-7330-4852-b454-ebfcbe63c3e2%2FScreen%20Shot%202020-06-23%20at%2012.46.59%20PM.png?v=1592934434020"
+          />
+        </div>
+      </div>
+      <div class="ticket-information">
+        <!--      These are the areas that you are going to need to modify with the information that the person inputs    -->
+        <div class="day-output">Day:</div>
+        <div class="age-output">Age:</div>
+        <div class="final-price">Price:</div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
